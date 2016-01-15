@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="practice_1_data">
+
+        <item name="question_count">20</item>
+        <item name="question_1">How should the steering wheel be held?</item>
+        <item name="question_1_answer1">9 o\'clock and 3 o\'clock</item>
+        <item name="question_1_answer2">Which ever way you want</item>
+        <item name="question_1_answer3">Both hands on 12 o\'clock position</item>
+        <item name="question_1_answer4">11 o\'clock and 1 o\'clock</item>
+        <item name="question_1_correct_index">0</item>
+        <item name="question_1_correct_explanation">The safest way to hold the steering wheel is to have the hands at the at the 9 o\'clock and 3 o\'clock </item>
+        <item name="question_1_incorrect_explanation">The streering wheel should be held with the hands at the 9 o\'clock and 3 o\'clock</item>
+
+    </array>
+</resources>

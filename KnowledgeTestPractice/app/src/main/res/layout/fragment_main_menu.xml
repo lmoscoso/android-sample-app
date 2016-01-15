@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="@string/knowledge_test_btn_txt"
+        android:id="@+id/knowledge_test_btn"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="@string/signs_test_btn_txt"
+        android:id="@+id/signs_test_btn"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="@string/more_questions_btn_txt"
+        android:id="@+id/more_questions_btn"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:text="@string/licencing_locations_btn_txt"
+        android:id="@+id/licensing_locations_btn"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp" />
+</LinearLayout>
+

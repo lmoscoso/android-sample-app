@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.luismoscoso.knowledgetestpractice.AnswerExplanationFragment"
+    android:orientation="vertical" >
+
+    <include layout="@layout/content_question_top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/placeholder_result_txt"
+            android:id="@+id/result_textview"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:text="@string/placeholder_explanation_txt"
+            android:id="@+id/explanation_textview"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/content_bottom_button" />
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.luismoscoso.knowledgetestpractice.StandardQuestionFragment"
+    android:orientation="vertical" >
+
+    <include layout="@layout/content_question_top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/standard_answer_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/standard_answer_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_answer_1"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp" />
+
+            <RadioButton
+                android:id="@+id/standard_answer_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_answer_2" />
+
+            <RadioButton
+                android:id="@+id/standard_answer_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_answer_3"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp" />
+
+            <RadioButton
+                android:id="@+id/standard_answer_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder_answer_4"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <include layout="@layout/content_bottom_button" />
+
+</LinearLayout>
